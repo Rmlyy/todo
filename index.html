@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d0e0f" />
+    <meta property="og:title" content="TODO List" />
+    <meta property="og:description" content="My TODO list app" />
+    <meta property="og:url" content="https://todo.rmly.dev/" />
+    <meta property="og:image" content="https://todo.rmly.dev/img/logo.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/020fffa6ef.js" crossorigin="anonymous"></script>
+    <title>TODO List</title>
+  </head>
+  <body>
+    <noscript>
+      <div class="nojs">
+        <h2>JavaScript is disabled in your browser</h2>
+        <p>Please enable JavaScript for this website to work.</p>
+      </div>
+    </noscript>
+
+    <h1>TODO List</h1>
+    <ul id="list"></ul>
+
+    <label style="display: block">Add new task</label>
+    <input id="newTask" type="text" placeholder="Type here and press enter" />
+
+    <button onclick="removeAllTasks()">Remove all tasks</button>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
